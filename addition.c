@@ -1,14 +1,21 @@
-#include <stdio.h>
-int main() {    
+#include<stdio.h>
+int main()
+{
+  int add, sub, mul;
+  float div;
 
-    int number1, number2, sum;
-    
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
+  //addition
+  add = 5 + 2;
 
-    // calculating sum
-    sum = number1 + number2;      
-    
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+  //subtraction
+  sub = 5 - 2;
+
+  //multiplication
+  mul = 5 * 2;
+
+  //division
+  div = 5 / (float)2;
+
+  printf("Add: %d, Sub: %d, Mul: %d, Div: %.2f", add,sub,mul,div);
+  return 0;
 }
